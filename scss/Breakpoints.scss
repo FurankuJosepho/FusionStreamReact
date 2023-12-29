@@ -1,0 +1,51 @@
+$Breakpoints: (
+    "xxs": 310px,
+    "xs": 375px,
+    "sm": 425px,
+    "md": 480px,
+    "lg": 768px,
+    "xl": 992px,
+    "xxl": 1200px,
+);
+
+@mixin xxs {
+    @media (min-width: map-get($Breakpoints, "xxs")) {
+        @content;
+    }
+}
+@mixin xs {
+    @media (min-width: map-get($Breakpoints, "xs")) {
+        @content;
+    }
+}
+@mixin sm {
+    @media (min-width: map-get($Breakpoints, "sm")) {
+        @content;
+    }
+}
+@mixin md {
+    @media (min-width: map-get($Breakpoints, "md")) {
+        @content;
+    }
+}
+@mixin lg {
+    @media (min-width: map-get($Breakpoints, "lg")) {
+        @content;
+    }
+}
+@mixin xl {
+    @media (min-width: map-get($Breakpoints, "xl")) {
+        @content;
+    }
+}
+@mixin xxl {
+    @media (min-width: map-get($Breakpoints, "xxl")) {
+        @content;
+    }
+}
+
+@mixin breakpoints($media: 0) {
+    @media (min-width: $media){
+        @content;
+    }
+}

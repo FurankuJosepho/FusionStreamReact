@@ -1,9 +1,16 @@
-
+//imports Scss
+import "../scss/Home.scss";
+//imports Boostraps
+import { Container } from "react-bootstrap"
 const Home = () => {
   return (
-    <section>
-      <h1>Home</h1>
-    </section>
+    <main id="Home">
+     <section id="HeroPage">
+      <Container>
+
+      </Container>
+     </section>
+    </main>
   )
 }
 

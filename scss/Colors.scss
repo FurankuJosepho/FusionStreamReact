@@ -1,0 +1,22 @@
+@use "sass:list";
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap");
+$bgcolor: #2c2e3e;
+$bgcolor2: #34374c;
+$bgGradient:
+  rgba(44, 46, 62, 1) 0%,
+  rgba(52, 55, 76, 1) 83%;
+$textcolor: #fff;
+$textcolor2: #ee2b47;
+$fontfamily: "Inter";
+
+$Color-Scheme: $textcolor, $bgcolor;
+$Color-Scheme2: $textcolor, $bgcolor2;
+$Gradient-Scheme: $textcolor, $bgGradient;
+@mixin colors($Text, $Bg) {
+  @if list.length($Bg) == 1 {
+    background-color: $Bg;
+  } @else {
+    background-color: linear-gradient(0deg, $Bg);
+  }
+  color: $Text;
+}

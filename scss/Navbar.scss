@@ -1,13 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap");
-$bgcolor: #2c2e3e;
-$bgcolor2: #34374c;
-$textcolor: #fff;
-$textcolor2: #ee2b47;
-$fontfamily: "Inter";
+@import "../scss/Colors.scss";
+@import "../scss/Breakpoints.scss";
 
 .DarkBlue {
   background-color: $bgcolor;
   font-family: $fontfamily;
+  max-width: 1440px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 
   .container {
     justify-content: center;

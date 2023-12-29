@@ -1,0 +1,17 @@
+@import "../scss/Colors.scss";
+@import "../scss/Breakpoints.scss";
+
+#Home {
+  @include colors($Color-Scheme2...);
+  max-width: 1440px;
+  #HeroPage {
+    height: 38rem;
+    background: url(../src/assets/Movies.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    -webkit-filter: grayscale(3%) sepia(10%) blur(1px) brightness(25%) contrast(98%);
+    -moz-filter: grayscale(3%) sepia(10%) blur(1px) brightness(25%) contrast(98%);
+    filter: grayscale(3%) sepia(10%) blur(1px) brightness(25%) contrast(98%);
+  }
+}
