@@ -1,0 +1,250 @@
+@import "../scss/Colors.scss";
+@import "../scss/Breakpoints.scss";
+
+#Home {
+  max-width: 1440px;
+  scroll-behavior: smooth;
+
+  #HeroPage {
+    @include colors($Color-Scheme2...);
+    height: 38rem;
+    background: url(../src/assets/Movies.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    .container {
+      //   border: 2px solid red;
+      text-align: center;
+      padding: 4rem 0;
+      h1 {
+        text-align: center;
+        font-size: clamp(1rem, -5.44rem + 27.008vw, 4.688rem);
+        font-weight: 800;
+        font-family: $fontfamily;
+        span {
+          color: $textcolor2;
+        }
+      }
+      p {
+        text-align: center;
+        font-size: clamp(1.5rem, -9rem + 32vw, 2.278rem);
+      }
+
+      .danger {
+        @include colors($DangerBtn...);
+        border-radius: 10px;
+        padding: 7px 8rem;
+        text-decoration: none;
+        font-size: clamp(1.5rem, -9rem + 32vw, 1.278rem);
+      }
+    }
+  }
+
+  //Anime Series Page
+  .Light {
+    @include colors($textcolor,$bgcolor);
+    height: 43rem;
+    padding: 5rem;
+    .Anime {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h2 {
+        font-size: 3rem;
+        font-family: $fontfamily;
+        font-weight: 800;
+
+        span {
+          color: $textcolor2;
+        }
+      }
+      .Anime-Series {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+
+        .card {
+          border: none;
+          margin: 0.68rem;
+          border-radius: 20px;
+          img {
+            aspect-ratio: 1/1.5;
+          }
+          .card-body {
+            @include colors($textcolor, $bgcolor2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 0 0 10px 10px;
+          }
+        }
+
+        .danger {
+          @include colors($DangerBtn...);
+          border-radius: 10px;
+          padding: 7px 1rem;
+          text-decoration: none;
+          font-size: 15px;
+        }
+
+        .lastUp{
+          @include colors($DangerBtn...);
+          position: absolute;
+          top: 25rem;
+          right: -9rem;
+          border-radius: 50%;
+          padding: 1rem;
+          text-decoration: none;
+          font-size: 15px;
+
+          svg {
+            color: $textcolor;
+            width: 25px;
+            height: 25px;
+          }
+        }
+
+        .firstDown{
+          @include colors($DangerBtn...);
+          position: absolute;
+          top: 25rem;
+          right: -9rem;
+          border-radius: 50%;
+          padding: 1rem;
+          text-decoration: none;
+          font-size: 15px;
+
+          svg {
+            color: $textcolor;
+            width: 25px;
+            height: 25px;
+          }
+        }
+
+        .up{
+          @include colors($DangerBtn...);
+          position: absolute;
+          top: 21rem;
+          right: -9rem;
+          border-radius: 50%;
+          padding: 1rem;
+          text-decoration: none;
+          font-size: 15px;
+
+          svg {
+            color: $textcolor;
+            width: 25px;
+            height: 25px;
+          }
+        }
+
+        .down{
+          @include colors($DangerBtn...);
+          position: absolute;
+          top: 26rem;
+          right: -9rem;
+          border-radius: 100%;
+          padding: 1rem;
+          text-decoration: none;
+          font-size: 15px;
+
+          svg {
+            color: $textcolor;
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
+
+  //KDrama Series Page
+  .Dark {
+    @include colors($textcolor,$bgcolor2);
+    height: 43rem;
+    padding: 5rem;
+    .Anime {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h2 {
+        font-size: 3rem;
+        font-family: $fontfamily;
+        font-weight: 800;
+
+        span {
+          color: $textcolor2;
+        }
+      }
+      .Anime-Series {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+
+        .card {
+          border: none;
+          margin: 0.68rem;
+          border-radius: 20px;
+          img {
+            aspect-ratio: 1/1.5;
+          }
+          .card-body {
+            @include colors($textcolor, $bgcolor);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 0 0 10px 10px;
+          }
+        }
+
+        .danger {
+          @include colors($DangerBtn...);
+          border-radius: 10px;
+          padding: 7px 1rem;
+          text-decoration: none;
+          font-size: 15px;
+        }
+
+        .up{
+          @include colors($DangerBtn...);
+          position: absolute;
+          top: 21rem;
+          right: -9rem;
+          border-radius: 50%;
+          padding: 1rem;
+          text-decoration: none;
+          font-size: 15px;
+
+          svg {
+            color: $textcolor;
+            width: 25px;
+            height: 25px;
+          }
+        }
+
+        .down{
+          @include colors($DangerBtn...);
+          position: absolute;
+          top: 26rem;
+          right: -9rem;
+          border-radius: 50%;
+          padding: 1rem;
+          text-decoration: none;
+          font-size: 15px;
+
+          svg {
+            color: $textcolor;
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
+}

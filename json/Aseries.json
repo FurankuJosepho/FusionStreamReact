@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Naruto",
+        "image": "../src/assets/Naruto.jpg",
+        "episodes": "Episodes: 500+",
+        "ratings": "⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 2,
+        "title": "One Piece",
+        "image": "../src/assets/Onepice.jpg",
+        "episodes": "Episodes: 1000+",
+        "ratings": "⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 3,
+        "title": "Nisekoi",
+        "image": "../src/assets/Nisekoi.jpg",
+        "episodes": "Episodes: 32",
+        "ratings": "⭐⭐⭐⭐"
+    },
+    {
+        "id": 4,
+        "title": "Bleach",
+        "image": "../src/assets/Bleach2.jpg",
+        "episodes": "Episodes: 400+",
+        "ratings": "⭐⭐⭐⭐"
+    }
+]

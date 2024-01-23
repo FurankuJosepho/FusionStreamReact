@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Divorce Attorney Shin",
+        "image": "../src/assets/DAS.jpg",
+        "episodes": "Episodes: 12",
+        "ratings": "⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 2,
+        "title": "Doctor Stranger",
+        "image": "../src/assets/DoctorStranger2.jpg",
+        "episodes": "Episodes: 20",
+        "ratings": "⭐⭐⭐⭐"
+    },
+    {
+        "id": 3,
+        "title": "Goblin",
+        "image": "../src/assets/Goblin.jpg",
+        "episodes": "Episodes: 16",
+        "ratings": "⭐⭐⭐⭐⭐"
+    },
+    {
+        "id": 4,
+        "title": "Doona!",
+        "image": "../src/assets/Doona.jpg",
+        "episodes": "Episodes: 9",
+        "ratings": "⭐⭐⭐⭐"
+    }
+]

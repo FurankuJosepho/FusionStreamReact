@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "title": "Solo Leveling",
+      "image": "../src/assets/SoloLeveling.jpg",
+      "episodes": "Chapters: 270",
+      "status": "Completed",
+      "ratings": "⭐⭐⭐⭐⭐"
+    },
+    {
+      "id": 2,
+      "title": "Wind Breaker",
+      "image": "../src/assets/WindBreaker.jpg",
+      "episodes": "Chapters: 477",
+      "status": "Ongoing",
+      "ratings": "⭐⭐⭐⭐⭐"
+    },
+    {
+      "id": 3,
+      "title": "Leviathan",
+      "image": "../src/assets/Leviathan.jpg",
+      "episodes": "Chapters: 214",
+      "status": "Completed",
+      "ratings": "⭐⭐⭐⭐"
+    },
+    {
+      "id": 4,
+      "title": "Season Of Blossom",
+      "image": "../src/assets/SeasonOfBlossom.jpg",
+      "episodes": "Chapters: 127",
+      "status": "Completed",
+      "ratings": "⭐⭐⭐⭐"
+    }
+  ]
+  

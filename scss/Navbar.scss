@@ -1,0 +1,32 @@
+@import "../scss/Colors.scss";
+@import "../scss/Breakpoints.scss";
+
+.DarkBlue {
+  z-index: 100;
+  background-color: $bgcolor;
+  font-family: $fontfamily;
+  max-width: 1440px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  .container {
+    justify-content: center;
+    .navbar-brand {
+      color: $textcolor;
+      font-size: 30px;
+      font-weight: 800;
+      letter-spacing: 0.135rem;
+
+      span {
+        color: $textcolor2;
+      }
+    }
+    
+    .nav-link{
+        color: $textcolor;
+        font-size: 0.938rem;
+        font-weight: 700;
+    }
+  }
+}
