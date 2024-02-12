@@ -1,0 +1,41 @@
+@import "../scss/Colors.scss";
+@import "../scss/Breakpoints.scss";
+
+.SingleContents {
+  @include colors($textcolor, $bgcolor);
+  max-width: 1440px;
+  .Container {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+
+    // @include sm {
+    //     flex-direction: column;
+    // }
+
+    .Left {
+      //   border: 2px solid red;
+      width: clamp(300px, 80%, 600px);
+      text-align: end;
+      img {
+        width: clamp(200px, 55%, 600px);
+        border-radius: 20px;
+      }
+    }
+    .Right {
+      // border: 2px solid red;
+      font-family: $fontfamily;
+      width: clamp(43.75rem, 80%, 50rem);
+      h1 {
+        font-weight: 800;
+        font-size: clamp(1rem, 6vh, 3rem);
+      }
+      p {
+        width: clamp(18.75rem, 50%, 37.5rem);
+        font-size: clamp(0.74rem, 2.5vh, 1rem);
+      }
+    }
+  }
+}
