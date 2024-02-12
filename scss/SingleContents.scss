@@ -5,36 +5,101 @@
   @include colors($textcolor, $bgcolor);
   max-width: 1440px;
   .Container {
-    border: 2px solid red;
+    // border: 2px solid red;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    padding: 20px;
-
-    // @include sm {
-    //     flex-direction: column;
-    // }
+    gap: 25px 3.5rem;
+    padding: 17px;
+    justify-content: center;
+    align-items: center;
 
     .Left {
-      //   border: 2px solid red;
+      // border: 2px solid red;
       width: clamp(300px, 80%, 600px);
       text-align: end;
       img {
         width: clamp(200px, 55%, 600px);
-        border-radius: 20px;
+        border-radius: 8px;
       }
     }
     .Right {
       // border: 2px solid red;
       font-family: $fontfamily;
-      width: clamp(43.75rem, 80%, 50rem);
+      width: clamp(45.75rem, 80%, 50rem);
       h1 {
         font-weight: 800;
         font-size: clamp(1rem, 6vh, 3rem);
       }
       p {
-        width: clamp(18.75rem, 50%, 37.5rem);
-        font-size: clamp(0.74rem, 2.5vh, 1rem);
+        width: clamp(18.75rem, 70%, 37.5rem);
+        font-size: clamp(0.75rem, 2.6vh, 1.5rem);
+      }
+    }
+
+    .Bottom {
+      @include colors($DangerBtn...);
+      padding: 10px 20px;
+      width: clamp(500px, 80%, 840px);
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      border-radius: 5px;
+      font-family: $fontfamily;
+      h2 {
+        margin-bottom: 0;
+        font-weight: 800;
+        letter-spacing: 2px;
+        font-size: clamp(0.4rem, 6vh, 1.5rem);
+      }
+    }
+  }
+
+  .Container2 {
+    // border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+    .Bottom {
+      @include colors($DangerBtn...);
+      padding: 10px 20px;
+      width: clamp(500px, 80%, 840px);
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      border-radius: 5px;
+      font-family: $fontfamily;
+      h2 {
+        margin-bottom: 0;
+        font-weight: 800;
+        letter-spacing: 2px;
+        font-size: clamp(0.4rem, 6vh, 1.5rem);
+      }
+    }
+
+    .Example {
+      @include colors($Color-Scheme2...);
+      padding: 10px 20px;
+      width: clamp(500px, 80%, 840px);
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      border-radius: 5px;
+      font-family: $fontfamily;
+      a {
+        margin-bottom: 0;
+        font-weight: 800;
+        letter-spacing: 2px;
+        font-size: clamp(0.4rem, 6vh, 1.5rem);
+        text-decoration: none;
+        color: $textcolor;
+      }
+      .Pages {
+        margin-right: 25px;
       }
     }
   }

@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Manwha from "../../json/Manwha.json";
 import "../../scss/SingleContents.scss";
 
@@ -22,6 +22,16 @@ const ManwhaContent = () => {
           </div>
         </div>
       </div>
+       <div className="Container2">
+          <div className="Bottom">
+            <h2>Chapters</h2>
+            <h2>Pages</h2>
+          </div>
+          <div className="Example">
+            <Link to="*">Chapter 1</Link>
+            <Link className="Pages">20</Link>
+          </div>
+       </div>
     </section>
   );
 };

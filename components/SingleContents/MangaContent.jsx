@@ -1,5 +1,6 @@
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import Manga from "../../json/Manga.json";
+import "../../scss/SingleContents.scss";
 
 const MangaContent = () => {
   const { title } = useParams();
@@ -7,12 +8,30 @@ const MangaContent = () => {
   const { ratings, image, episodes } = MangaDetail;
 
   return (
-    <div>
-      <h1>{title}</h1>
-      <p>Rating: {ratings}</p>
-      <p>{episodes}</p>
-      <img src={image} alt={title} />
-    </div>
+    <section className="SingleContents">
+      <div className="Container">
+        <div className="Left">
+          <img src={image} alt={title} />
+        </div>
+        <div className="Right">
+          <div className="Details">
+            <h1>{title}</h1>
+            <p>{episodes}</p>
+            <p>Rating: {ratings}</p>
+          </div>
+        </div>
+      </div>
+       <div className="Container2">
+          <div className="Bottom">
+            <h2>Chapters</h2>
+            <h2>Pages</h2>
+          </div>
+          <div className="Example">
+            <Link to="*">Chapter 1</Link>
+            <Link className="Pages">20</Link>
+          </div>
+       </div>
+    </section>
   );
 };
 
