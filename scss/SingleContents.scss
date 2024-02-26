@@ -20,7 +20,7 @@
       text-align: end;
       img {
         width: clamp(200px, 55%, 600px);
-        aspect-ratio: 0.75;
+        aspect-ratio:  0.75;
         border-radius: 8px;
       }
     }
@@ -80,6 +80,28 @@
         font-weight: 800;
         letter-spacing: 2px;
         font-size: clamp(0.4rem, 6vh, 1.5rem);
+      }
+    }
+
+    .Example {
+      @include colors($Color-Scheme2...);
+      padding: 10px 20px;
+      width: clamp(500px, 80%, 840px);
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      border-radius: 5px;
+      font-family: $fontfamily;
+      a {
+        margin-bottom: 0;
+        font-weight: 800;
+        letter-spacing: 2px;
+        font-size: clamp(0.4rem, 6vh, 1.5rem);
+        text-decoration: none;
+        color: $textcolor;
+      }
+      .Pages {
+        margin-right: 25px;
       }
     }
 
