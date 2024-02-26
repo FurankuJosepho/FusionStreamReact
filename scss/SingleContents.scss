@@ -4,12 +4,13 @@
 .SingleContents {
   @include colors($textcolor, $bgcolor);
   max-width: 1440px;
+  overflow: hidden;
   .Container {
     // border: 2px solid red;
     display: flex;
     justify-content: space-between;
     gap: 25px 3.5rem;
-    padding: 17px;
+    padding: 11px;
     justify-content: center;
     align-items: center;
 
@@ -19,6 +20,7 @@
       text-align: end;
       img {
         width: clamp(200px, 55%, 600px);
+        aspect-ratio: 0.75;
         border-radius: 8px;
       }
     }
@@ -81,25 +83,20 @@
       }
     }
 
-    .Example {
+    .Video {
       @include colors($Color-Scheme2...);
       padding: 10px 20px;
       width: clamp(500px, 80%, 840px);
-      justify-content: space-between;
+      height: 500px;
+      justify-content: center;
       align-items: center;
       display: flex;
       border-radius: 5px;
       font-family: $fontfamily;
-      a {
-        margin-bottom: 0;
-        font-weight: 800;
-        letter-spacing: 2px;
-        font-size: clamp(0.4rem, 6vh, 1.5rem);
-        text-decoration: none;
-        color: $textcolor;
-      }
-      .Pages {
-        margin-right: 25px;
+      svg {
+        aspect-ratio: 1;
+        width: clamp(100px, 15%, 300px);
+        fill: $textcolor;
       }
     }
   }

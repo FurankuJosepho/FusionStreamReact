@@ -4,32 +4,32 @@
       "title": "Black Clover Movie",
       "image": "../src/assets/BCM.jpg",
       "duration": "1hrs 50min",
-      "status": "Completed",
-      "ratings": "⭐⭐⭐⭐⭐"
+      "ratings": "⭐⭐⭐⭐⭐",
+      "description": "In a world where magic is everything, Asta, a boy who was born with no magic, aims to become the Wizard King, to overcome adversity, prove his power, and keep his oath with his friends."
     },
     {
       "id": 2,
       "title": "Barbie",
       "image": "../src/assets/Barbie.jpg",
       "duration": "1hrs 54min",
-      "status": "Ongoing",
-      "ratings": "⭐⭐⭐⭐⭐"
+      "ratings": "⭐⭐⭐⭐⭐",
+      "description" : "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans."
     },
     {
       "id": 3,
       "title": "Bumblebee",
       "image": "../src/assets/Bumblebee.jpg",
       "duration": "1hrs 54min",
-      "status": "Completed",
-      "ratings": "⭐⭐⭐⭐"
+      "ratings": "⭐⭐⭐⭐",
+      "description" : "On the run in the year 1987, Bumblebee the Autobot seeks refuge in a junkyard in a small California beach town. Charlie, on the brink of turning 18 years old and trying to find her place in the world, soon discovers the battle-scarred and broken Bumblebee. When Charlie revives him, she quickly learns that this is no ordinary yellow Volkswage"
     },
     {
       "id": 4,
       "title": "Fast X",
       "image": "../src/assets/FastX.jpg",
       "duration": "2hrs 21min",
-      "status": "Completed",
-      "ratings": "⭐⭐⭐⭐"
+      "ratings": "⭐⭐⭐⭐",
+      "description" : "Over many missions and against impossible odds, Dom Toretto and his family have outsmarted and outdriven every foe in their path. Now, they must confront the most lethal opponent they've ever faced. Fueled by revenge, a terrifying threat emerges from the shadows of the past to shatter Dom's world and destroy everything -- and everyone -- he loves."
     }
   ]
   

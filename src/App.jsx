@@ -9,6 +9,7 @@ import Movies from "../pages/Movies"
 import MangaContent from "../components/SingleContents/MangaContent"
 import ManwhaContent from "../components/SingleContents/ManwhaContent"
 import NotFound from "../pages/NF";
+import MoviesContents from "../components/SingleContents/MoviesContents"
 function App() {
 
   return (
@@ -30,7 +31,7 @@ function App() {
      </Route>
      <Route path="/movies">
       <Route index element={<Movies/>}/>
-      <Route path=":title"/>
+      <Route path=":title"  element={<MoviesContents/>}/>
      </Route>
       <Route path="*" element={<NotFound/>}/>
     </Routes>

@@ -4,27 +4,31 @@
     "title": "Naruto",
     "image": "../src/assets/NarutoM.jpg",
     "episodes": "Chapters: 700",
-    "ratings": "⭐⭐⭐⭐⭐"
+    "ratings": "⭐⭐⭐⭐⭐",
+    "description": "It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in two parts: the first is set in Naruto's pre-teen years (volumes 1–27), and the second in his teens (volumes 28–72)."
   },
   {
     "id": 2,
     "title": "One Piece",
     "image": "../src/assets/OnePieceM.jpg",
     "episodes": "Chapters: 1016",
-    "ratings": "⭐⭐⭐⭐⭐"
+    "ratings": "⭐⭐⭐⭐⭐",
+    "description" : ". In a seafaring world, a young pirate captain sets out with his crew to attain the title of Pirate King, and to discover the mythical treasure known as 'One Piece. ' An alternate version of Earth, and one that is currently in the midst of the 'Golden Age of Pirates'."
   },
   {
     "id": 3,
     "title": "Nisekoi",
     "image": "../src/assets/Nisekoi.jpg",
     "episodes": "Chapters: 229",
-    "ratings": "⭐⭐⭐⭐"
+    "ratings": "⭐⭐⭐⭐",
+    "description" : "The heir to a Yakuza Family is forced to be in a relationship with the daughter of the head of a gangster family to avoid a gang war, much to their chagrin. Raku Ichijou is an average high school student. He also happens to be the sole heir to the head of a Yakuza Family called the Shuei-gumi."
   },
   {
     "id": 4,
     "title": "Bleach",
     "image": "../src/assets/BleachM.jpg",
     "episodes": "Chapters: 698",
-    "ratings": "⭐⭐⭐⭐"
+    "ratings": "⭐⭐⭐⭐",
+    "description" : " The series adapts Kubo's manga with the main story arcs and introduces anime exclusive ones. In Karakura Town, high school student Ichigo Kurosaki becomes a substitute Soul Reaper (死神, Shinigami, literally, Death God), when Rukia Kuchiki risks her life to protect him from a Hollow. "
   }
 ]
